@@ -1,7 +1,10 @@
-number=int(input("enter the number: "))
+number=int(input(""))
 if(number>0):
-  print("Pasitive")
+  print("Positive")
 elif(number<0):
   print("Negative")
-elif(number==0):
+else:
   print("Zero")
+
+
+
