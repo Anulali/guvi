@@ -1,0 +1,6 @@
+n,k,z=input().split()
+n1=int(n)
+k1=int(k)
+z1=int(z)
+a=int((n1*k1)/z1)
+print(a)
