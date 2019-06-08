@@ -1,10 +1,10 @@
 n,k=input().split()
-s=input().split()
+s=list(map(int,input().split()))
 k=int(k)
+n=int(n)
 a=[]
-l=len(s)
+
 for i in range(len(s)):
-  if(i%2!=0):
-    a.append(i)
-b=a[k-1]
-print(b)    
+  if(s[i]%2!=0):
+    a.append(s[i])
+print(a[k-1]) 
