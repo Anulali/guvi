@@ -5,4 +5,4 @@ for i in range(len(n)):
     continue
   else:
     c=c+1
-print(c+1)    
+print(c)    
